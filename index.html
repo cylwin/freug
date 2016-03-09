@@ -4,41 +4,243 @@
 <html>
 <head>
 	<title>Freug board configurator</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
 
 </head>
 <body>
-	<input type='text' id="colorpicker1" />
-	<input type='text' id="colorpicker2" />
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+<div class="section" id="section1">
+<h2>Choix du type de board</h2>
 
-	<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSOUS.svg" id="freeride-bois-dessous" class="board-svg" width="50%">
-		freeride-bois-dessous
-	</object>
-	<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSUS.svg" id="freeride-bois-dessus" class="board-svg" width="50%">
-		freeride-bois-dessus
-	</object>
-	---------
-	<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="50%">
-		freeride-carbon-dessous
-	</object>
-	<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="50%">
-		freeride-carbon-dessous
-	</object>
-	---------
-	<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSOUS.svg" id="freestyle-bois-dessous" class="board-svg" width="50%">
-		freestyle-bois-dessous
-	</object>
-	<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSOUS.svg" id="freestyle-bois-dessous" class="board-svg" width="50%">
-		freestyle-bois-dessous
-	</object>
-	---------
-	<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSOUS.svg" id="freestyle-carbon-dessous" class="board-svg" width="50%">
-		freestyle-carbon-dessous
-	</object>
-	<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSOUS.svg" id="freestyle-carbon-dessous" class="board-svg" width="50%">
-		freestyle-carbon-dessous
-	</object>
+<div class="radio">
+  <label>
+    <input type="radio" name="section1" id="section1Radios1" value="freestyle" checked>
+    <h3>Board Freestyle</h3>
+    <p>« Les Boards Freestyle ont été développées pour vous offrir un excellent pop dû à un scoop supérieur de 5mm et un flex adapté. Vous aurez le choix dans une gamme d’ailerons spécifiques freestyle qui vous permettront d’avoir  le meilleur compromis entre stabilité à la réception et maniabilité.Chausse possible :)»</p>
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section1" id="section1Radios2" value="freeride">
+
+    <h3>Board Freeride</h3>
+    <p>« les Boards Freeride ont été développées pour vous offrir le meilleur confort possible dans toutes les conditions. Leur flex, l’outline et le scoop ont été imaginés pour vous apporter une excellente remontée au vent. »</p>
+  </label>
+</div>
+</div>
+
+<div class="section" id="section2freestyle">
+<h2>Choix de la taille</h2>
+<div class="radio">
+  <label>
+    <input type="radio" name="section2freestyle" id="section2freestyleRadios2" value="129X39cm">
+
+    <h3>129X39cm</h3>
+    <p>« Cette taille à été développée spécialement pour les petits gabarits (poids de: 45kg  à 55kg). »</p>
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section2freestyle" id="section2freestyleRadios2" value="133X41cm">
+
+    <h3>133X41cm</h3>
+    <p>« Cette taille à été développée pour le gabarit moyen elle correspondra aux meilleurs compromis entre toutes les boards freeride du marché (poids de: 50kg à 80kg). »</p>
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section2freestyle" id="section2freestyleRadios2" value="138X44cm">
+
+    <h3>138X44cm</h3>
+    <p>« Cette taille à été développée pour le lightwind. Sa surface vous permettra de partir dès le début du planning  ou planche freeride classique (pour un poids > 80kg). »</p>
+  </label>
+</div>
+
+
+</div>
+<div class="section" id="section2freeride">
+<h2>Choix de la taille</h2>
+<div class="radio">
+  <label>
+    <input type="radio" name="section2freeride" id="section2freerideRadios2" value="135X42cm">
+    <h3>135X42cm</h3>
+    <p>« Nous avons choisi de vous proposer une seul taille pour la board freestyle pour vous faciliter dans votre choix. la taille de 135X42 vous offrira les meilleurs compromis quelque soit votre morphologie. »</p>
+  </label>
+</div>
+</div>
+
+<div class="section" id="section3">
+<h2>Choix de la composition</h2>
+<p>Toutes les boards freug’s kiteboarding ont un noyau 100% bois mais nous avons besoin d’ajouter de la fibre de verre ou de carbone ainsi que de la résine pour la solidité et la réactivité de la planche à la flexion.
+</p>
+<div class="radio">
+  <label>
+    <input type="radio" name="section3" id="section3Radios2" value="carbone">
+    <h3>Carbone</h3>
+    <p>« En plus de son design moderne et sobre, le carbone vous apportera moins de flex que la fibre de verre.<br>
+	L’avantage: plus de pop (conseillée sur les boards freestyle). <br>
+	L’inconvénient : moins agréable dans le clapot que la fibre de verre. »</p>
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section3" id="section3Radios2" value="fibreDeVerre">
+    <h3>Fibre de verre</h3>
+    <p>« La fibre de verre vous permettra d’avoir une stratification transparente et permet de voir le noyeau 100% bois. Elle apporte plus de souplesse que la fibre de carbone elle est conseillée pour les boards freeride.»</p>
+  </label>
+</div>
+</div>
+
+<div class="section" id="section4">
+	<h2>Choix de la couleur</h2>
+	<h3>Couleur principale :</h3>
+	<input type='text' id="colorpicker1" />
+	<h3>Couleur secondaire :</h3>
+	<input type='text' id="colorpicker2" />
+</div>
+
+<div class="section" id="section5">
+	<h2>Choix de la finition</h2>
+	<p>nous vous laissons le choix de choisir la finition du dessus de la board. En effet toutes nos boards serront livré avec un dessous MAT car ce revêtement est moins sensible aux rayures.</p>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="section5" id="section5Radios2" value="brillante">
+		<h2>Brillante</h2>
+		<p>Trés girly et apporte une superbe brillance à la couleur.</p>
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="section5" id="section5Radios2" value="mat">
+		<h2>Mat</h2>
+		<p>Board moins sensible aux rayures</p>
+	  </label>
+	</div>
+
+</div>
+<div class="section" id="section6freeride">
+	<h2>Choix de l'aileron</h2>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freeride" id="section6freerideRadios2" value="ailerons-kitesurf-legend-g10">
+	<img src="ailerons/ailerons-kitesurf-legend-g10.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freeride" id="section6freerideRadios2" value="ailerons-kitesurf-legend-noir-rose">
+	<img src="ailerons/ailerons-kitesurf-legend-noir-rose.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freeride" id="section6freerideRadios2" value="ailerons-kitesurf-legend-vert-blanc">
+	<img src="ailerons/ailerons-kitesurf-legend-vert-blanc.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freeride" id="section6freerideRadios2" value="ailerons-kitesurf-legend">
+	<img src="ailerons/ailerons-kitesurf-legend.jpeg">
+  </label>
+</div>
+
+
+</div>
+<div class="section" id="section6freestyle">
+	<h2>Choix de l'aileron</h2>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freestyle" id="section6freestyleRadios2" value="ailerons-wakeboard-kitesurf--mosquito">
+	<img src="ailerons/ailerons-wakeboard-kitesurf--mosquito.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freestyle" id="section6freestyleRadios2" value="ailerons-wakeboard-kitesurf-G10-mosquito">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-G10-mosquito.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freestyle" id="section6freestyleRadios2" value="ailerons-wakeboard-kitesurf-mosquito-noir-rose">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-noir-rose.jpeg">
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="section6freestyle" id="section6freestyleRadios2" value="ailerons-wakeboard-kitesurf-mosquito-vert-blanc">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-vert-blanc.jpeg">
+  </label>
+</div>
+</div>
+
+<div class="section" id="section7">
+	<h2>Récapitulatif</h2>
+
+</div>
+<div class="section" id="section8">
+	<h2>Choix de la housse</h2>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="section8" id="section8Radios2" value="housseBleu">
+		<img src="housses/houssebleu.jpeg">
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="section8" id="section8Radios2" value="housseRose">
+		<img src="housses/housserose.jpeg">
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+		<input type="radio" name="section8" id="section8Radios2" value="nonHousse">
+	    Non merci
+	  </label>
+	</div>
+</div>
+<div class="section" id="section9">
+	<h2>Paiement</h2>
+
+</div>
+
+	<button class="btn btn-small btn-primary">Suivant</button>
+		</div>
+		<div class="col-sm-6">
+			<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSOUS.svg" id="freeride-bois-dessous" class="board-svg" width="100%">
+				freeride-bois-dessous
+			</object>
+			<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSUS.svg" id="freeride-bois-dessus" class="board-svg" width="100%">
+				freeride-bois-dessus
+			</object>
+			<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="100%">
+				freeride-carbon-dessous
+			</object>
+			<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="100%">
+				freeride-carbon-dessous
+			</object>
+			<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSOUS.svg" id="freestyle-bois-dessous" class="board-svg" width="100%">
+				freestyle-bois-dessous
+			</object>
+			<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSUS.svg" id="freestyle-bois-dessus" class="board-svg" width="100%">
+				freestyle-bois-dessus
+			</object>
+			<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSOUS.svg" id="freestyle-carbon-dessous" class="board-svg" width="100%">
+				freestyle-carbon-dessous
+			</object>
+			<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSUS.svg" id="freestyle-carbon-dessus" class="board-svg" width="100%">
+				freestyle-carbon-dessus
+			</object>
+		</div>
+	</div>
+</div>
+
+
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
@@ -51,7 +253,7 @@
 		//     rect.setAttribute("fill", "green");
 		// });
 
-		var zones1 = ["ZONE1", "ZONE3", "ZONE4", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE9", "ZONE10"];
+		var zones1 = ["ZONE1", "ZONE3", "ZONE4", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE9", "ZONE10", "MASK1", "MASK2", "MASK3"];
 		var zones2 = ["ZONE2", "ZONE2A", "ZONE2B", "ZONE4"];
 
 		$(function() {

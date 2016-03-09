@@ -17,7 +17,7 @@
 		<use xlink:href="#SVGID_1_"  overflow="visible"/>
 	</clipPath>
 	<g transform="matrix(1 0 0 1 -1.907349e-06 0)" clip-path="url(#SVGID_2_)">
-		
+
 			<image overflow="visible" width="1993" height="620" id="BOIS" xlink:href="data:image/jpeg;base64,/9j/4SU3RXhpZgAATU0AKgAAAAgADAEAAAMAAAABHyQAAAEBAAMAAAABCbAAAAECAAMAAAAEAAAA
 ngEGAAMAAAABAAUAAAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEaAAUAAAABAAAApgEbAAUAAAAB
 AAAArgEoAAMAAAABAAIAAAExAAIAAAAgAAAAtgEyAAIAAAAUAAAA1odpAAQAAAABAAAA7AAAASQA
@@ -12159,18 +12159,18 @@ v076I/uuf+7f95/H4fV9D93/AM24snDvWlffw/VlEuL+j9jm4vCr/K8N+nj4+L/knxfw/wC+Y7qH
 16vxfVefDfhw/m/a4f7tp/yR/wArFdv8r8cp3/oOb+7/AOgj/ZJZ+/8A+Xb/AITP/9k=" transform="matrix(2.0574 0 0 2.0574 30.2666 0)">
 		</image>
 	</g>
-	<polyline id="ZONE2B" clip-path="url(#SVGID_2_)" fill="#F1E761" points="1987.812,854.842 2517.253,1458.668 1459.828,1457.209 	
+	<polyline id="ZONE2B" clip-path="url(#SVGID_2_)" points="1987.812,854.842 2517.253,1458.668 1459.828,1457.209
 		"/>
-	<polyline id="ZONE2A" clip-path="url(#SVGID_2_)" fill="#F1E761" points="1991.588,420.843 2584.159,-255.918 1390.921,-259.157 	
+	<polyline id="ZONE2A" clip-path="url(#SVGID_2_)" points="1991.588,420.843 2584.159,-255.918 1390.921,-259.157
 		"/>
-	<polyline id="ZONE3" clip-path="url(#SVGID_2_)" fill="#203A6A" points="2179.04,635.843 2813.04,-94.157 4045.04,-96.157 
+	<polyline id="ZONE3" clip-path="url(#SVGID_2_)" points="2179.04,635.843 2813.04,-94.157 4045.04,-96.157
 		4129.04,1589.842 2771.04,1305.842 	"/>
-	<polyline id="ZONE1" clip-path="url(#SVGID_2_)" fill="#203A6A" points="1798.456,630.601 1197.186,1322.914 28.788,1324.812 
+	<polyline id="ZONE1" clip-path="url(#SVGID_2_)" points="1798.456,630.601 1197.186,1322.914 28.788,1324.812
 		-50.876,-274.139 1237.018,-4.801 	"/>
 	<g clip-path="url(#SVGID_2_)">
-		<rect id="ZONE4" x="405.043" y="25.602" fill="#F1E761" width="204" height="356.006"/>
+		<rect id="ZONE4" x="405.043" y="25.602" width="204" height="356.006"/>
 		<g id="ZONE10">
-			<path fill="#203A6A" d="M462.475,206.157c0.225,0.861,0.225,1.487,0.359,1.921c0.084,0.302,0.182,0.597,0.291,0.889
+			<path d="M462.475,206.157c0.225,0.861,0.225,1.487,0.359,1.921c0.084,0.302,0.182,0.597,0.291,0.889
 				c0.547,1.459,1.384,2.835,2.309,4.547c0.166,0.214,0.343,0.42,0.53,0.618c0.144,0.226,0.286,0.45,0.426,0.673
 				c0.28,0.445,0.555,0.882,0.819,1.313c0.265,0.431,0.518,0.855,0.761,1.272c0.243,0.418,0.473,0.832,0.689,1.239
 				c0.43,0.815,0.799,1.61,1.083,2.39c0.215,0.463,0.424,0.929,0.624,1.396c1.297,2.986,2.339,6.054,3.168,9.181
@@ -12222,16 +12222,16 @@ v076I/uuf+7f95/H4fV9D93/AM24snDvWlffw/VlEuL+j9jm4vCr/K8N+nj4+L/knxfw/wC+Y7qH
 				c8.883-70.488-21.049-125.016-41.609-144.969c-4.65-4.515-8.822-7.259-11.955-8.019"/>
 		</g>
 		<g id="ZONE8">
-			<polyline fill="#203A6A" points="589.572,338.353 599.082,331.057 588.406,320.61 			"/>
+			<polyline points="589.572,338.353 599.082,331.057 588.406,320.61 			"/>
 		</g>
 		<g id="ZONE7">
-			<polyline fill="#203A6A" points="551.259,209.312 554.611,198.744 539.956,199.319 			"/>
+			<polyline points="551.259,209.312 554.611,198.744 539.956,199.319 			"/>
 		</g>
 		<g id="ZONE6">
-			<path fill="#203A6A" d="M588.414,350.424c0,0-2.85,6.191-4.357-0.586"/>
+			<path d="M588.414,350.424c0,0-2.85,6.191-4.357-0.586"/>
 		</g>
 		<g id="ZONE5">
-			<path fill="#203A6A" d="M532.152,199.336c0,0-4.299-3.975,1.036-4.272"/>
+			<path d="M532.152,199.336c0,0-4.299-3.975,1.036-4.272"/>
 		</g>
 	</g>
 	<path id="POINT_INSERT" clip-path="url(#SVGID_2_)" stroke="#000000" stroke-width="0.216" stroke-miterlimit="22.9256" d="

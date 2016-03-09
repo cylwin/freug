@@ -17,7 +17,7 @@
 		<use xlink:href="#outline"  overflow="visible"/>
 	</clipPath>
 	<g clip-path="url(#outline_1_)">
-		
+
 			<image overflow="visible" width="1926" height="591" id="CARBON" xlink:href="data:image/jpeg;base64,/9j/4QRlRXhpZgAATU0AKgAAAAgADAEAAAMAAAABJZoAAAEBAAMAAAABC4kAAAECAAMAAAAEAAAA
 ngEGAAMAAAABAAUAAAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEaAAUAAAABAAAApgEbAAUAAAAB
 AAAArgEoAAMAAAABAAIAAAExAAIAAAAgAAAAtgEyAAIAAAAUAAAA1odpAAQAAAABAAAA7AAAASQA
@@ -13197,12 +13197,12 @@ gdon9QvaH4uwQ7+/2cY/muabRlsppiZ4bjnEvAUCNGYZPjp+1/lZsMprXS4tUi8wCS1aylvGkNgr
 LzSIf6R6MsP90quv+jr+x6mbBsrQgaOQqB+7c8SO5APL/W/ZzYJLlowvGQTKOppu3+R+1y5Zs//Z" transform="matrix(2.1625 0 0 2.1625 0 10.5918)">
 		</image>
 	</g>
-	<rect id="ZONE_2" x="1630.102" y="-129.368" clip-path="url(#outline_1_)" fill="#F1E761" width="695.862" height="1529.706"/>
-	<rect id="ZONE1" x="-169.208" y="-117.37" clip-path="url(#outline_1_)" fill="#203A6A" width="1427.714" height="1513.724"/>
-	<rect id="ZONE3" x="2692.22" y="-117.371" clip-path="url(#outline_1_)" fill="#203A6A" width="1379.724" height="1511.698"/>
+	<rect id="ZONE2" x="1630.102" y="-129.368" clip-path="url(#outline_1_)" width="695.862" height="1529.706"/>
+	<rect id="ZONE1" x="-169.208" y="-117.37" clip-path="url(#outline_1_)" width="1427.714" height="1513.724"/>
+	<rect id="ZONE3" x="2692.22" y="-117.371" clip-path="url(#outline_1_)" width="1379.724" height="1511.698"/>
 	<g clip-path="url(#outline_1_)">
-		<rect id="ZONE4" x="398.283" y="11.623" fill="#F1E761" width="204" height="356.006"/>
-		<path id="ZONE10" fill="#203A6A" d="M455.715,192.179c0.225,0.861,0.225,1.487,0.359,1.921c0.084,0.302,0.182,0.597,0.291,0.889
+		<rect id="ZONE4" x="398.283" y="11.623" width="204" height="356.006"/>
+		<path id="ZONE10" d="M455.715,192.179c0.225,0.861,0.225,1.487,0.359,1.921c0.084,0.302,0.182,0.597,0.291,0.889
 			c0.547,1.459,1.384,2.835,2.309,4.547c0.166,0.214,0.343,0.42,0.53,0.618c0.144,0.226,0.286,0.45,0.426,0.673
 			c0.28,0.445,0.555,0.882,0.819,1.313c0.265,0.431,0.518,0.855,0.761,1.272c0.243,0.418,0.473,0.832,0.689,1.239
 			c0.43,0.815,0.799,1.61,1.083,2.39c0.215,0.463,0.424,0.929,0.624,1.396c1.297,2.986,2.339,6.054,3.168,9.181
@@ -13253,16 +13253,16 @@ LzSIf6R6MsP90quv+jr+x6mbBsrQgaOQqB+7c8SO5APL/W/ZzYJLlowvGQTKOppu3+R+1y5Zs//Z" tr
 				c8.883-70.488-21.049-125.016-41.609-144.969c-4.65-4.515-8.822-7.259-11.955-8.019"/>
 		</g>
 		<g id="ZONE8">
-			<polyline fill="#203A6A" points="582.812,324.375 592.322,317.079 581.646,306.631 			"/>
+			<polyline points="582.812,324.375 592.322,317.079 581.646,306.631 			"/>
 		</g>
 		<g id="ZONE7">
-			<polyline fill="#203A6A" points="544.499,195.333 547.852,184.766 533.196,185.341 			"/>
+			<polyline points="544.499,195.333 547.852,184.766 533.196,185.341 			"/>
 		</g>
 		<g id="ZONE6">
-			<path fill="#203A6A" d="M581.654,336.445c0,0-2.85,6.191-4.357-0.586"/>
+			<path d="M581.654,336.445c0,0-2.85,6.191-4.357-0.586"/>
 		</g>
-		<g id="ZONE_5">
-			<path fill="#203A6A" d="M525.393,185.358c0,0-4.299-3.975,1.036-4.272"/>
+		<g id="ZONE5">
+			<path d="M525.393,185.358c0,0-4.299-3.975,1.036-4.272"/>
 		</g>
 	</g>
 	<g id="point_insert_et_aileron" clip-path="url(#outline_1_)">
