@@ -12267,7 +12267,7 @@ v076I/uuf+7f95/H4fV9D93/AM24snDvWlffw/VlEuL+j9jm4vCr/K8N+nj4+L/knxfw/wC+Y7qH
 		<clipPath id="SVGID_4_">
 			<use xlink:href="#SVGID_3_"  overflow="visible"/>
 		</clipPath>
-		<polyline id="ZONE2B" clip-path="url(#SVGID_4_)" fill="#F1E761" points="1977.812,852.842 2507.253,1456.668 1449.828,1455.209
+		<polyline id="ZONE2B" clip-path="url(#SVGID_4_)" points="1977.812,852.842 2507.253,1456.668 1449.828,1455.209
 					"/>
 	</g>
 	<g>
@@ -12329,7 +12329,7 @@ v076I/uuf+7f95/H4fV9D93/AM24snDvWlffw/VlEuL+j9jm4vCr/K8N+nj4+L/knxfw/wC+Y7qH
 		<clipPath id="SVGID_6_">
 			<use xlink:href="#SVGID_5_"  overflow="visible"/>
 		</clipPath>
-		<polyline id="ZONE2A" clip-path="url(#SVGID_6_)" fill="#F1E761" points="1981.588,418.843 2574.159,-257.918 1380.921,-261.157
+		<polyline id="ZONE2A" clip-path="url(#SVGID_6_)" points="1981.588,418.843 2574.159,-257.918 1380.921,-261.157
 					"/>
 	</g>
 	<g>
@@ -12516,7 +12516,7 @@ v076I/uuf+7f95/H4fV9D93/AM24snDvWlffw/VlEuL+j9jm4vCr/K8N+nj4+L/knxfw/wC+Y7qH
 			<use xlink:href="#SVGID_11_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_12_)">
-			<rect id="ZONE4" x="495.043" y="66.457" fill="#F1E761" width="204" height="356.006"/>
+			<rect id="ZONE4" x="495.043" y="66.457" width="204" height="356.006"/>
 			<g id="ZONE10">
 				<path d="M552.475,247.013c0.226,0.861,0.226,1.487,0.359,1.921c0.084,0.302,0.182,0.597,0.291,0.889
 					c0.547,1.459,1.384,2.835,2.309,4.547c0.166,0.214,0.344,0.42,0.53,0.618c0.145,0.226,0.286,0.45,0.426,0.673

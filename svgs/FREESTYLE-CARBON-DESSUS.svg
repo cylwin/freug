@@ -13305,7 +13305,7 @@ LzSIf6R6MsP90quv+jr+x6mbBsrQgaOQqB+7c8SO5APL/W/ZzYJLlowvGQTKOppu3+R+1y5Zs//Z" tr
 		<clipPath id="SVGID_4_">
 			<use xlink:href="#SVGID_3_"  overflow="visible"/>
 		</clipPath>
-		<rect id="ZONE2" x="1640.102" y="-122.368" clip-path="url(#SVGID_4_)" fill="#F1E761" width="695.862" height="1529.706"/>
+		<rect id="ZONE2" x="1640.102" y="-122.368" clip-path="url(#SVGID_4_)" width="695.862" height="1529.706"/>
 	</g>
 	<g>
 		<defs>
@@ -13512,8 +13512,8 @@ LzSIf6R6MsP90quv+jr+x6mbBsrQgaOQqB+7c8SO5APL/W/ZzYJLlowvGQTKOppu3+R+1y5Zs//Z" tr
 			<use xlink:href="#SVGID_9_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_10_)">
-			<rect id="ZONE4" x="498.283" y="73.006" fill="#F1E761" width="204" height="356.006"/>
-			<g id="ZONE10">
+			<rect id="ZONE4" x="498.283" y="73.006" width="204" height="356.006"/>
+			<g id="ZONE11">
 				<path d="M555.715,253.562c0.226,0.861,0.226,1.487,0.358,1.921c0.084,0.302,0.183,0.597,0.292,0.889
 					c0.546,1.459,1.384,2.835,2.309,4.547c0.166,0.214,0.342,0.42,0.53,0.618c0.144,0.226,0.286,0.45,0.426,0.673
 					c0.28,0.445,0.556,0.882,0.819,1.313c0.265,0.431,0.519,0.855,0.761,1.272c0.244,0.418,0.473,0.832,0.689,1.239
@@ -13607,7 +13607,7 @@ LzSIf6R6MsP90quv+jr+x6mbBsrQgaOQqB+7c8SO5APL/W/ZzYJLlowvGQTKOppu3+R+1y5Zs//Z" tr
 </g>
 <g>
 	<g>
-		<path id="ZONE2A" fill="#F1E761" d="M2240.621,691.512c28.602,0,52.7-23.392,52.891-52.133c0.189-28.458-23.53-52.891-52.133-52.891
+		<path id="ZONE2A" d="M2240.621,691.512c28.602,0,52.7-23.392,52.891-52.133c0.189-28.458-23.53-52.891-52.133-52.891
 			c-28.602,0-52.699,23.392-52.891,52.133C2188.299,667.079,2212.02,691.512,2240.621,691.512L2240.621,691.512z"/>
 	</g>
 </g>
