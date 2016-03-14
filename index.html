@@ -5,6 +5,7 @@
 <head>
 	<title>Freug board configurator</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="custom.css">
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
 
@@ -16,14 +17,14 @@
 <div class="section" id="section1">
 <h2>Choix du type de board</h2>
 
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="type" id="section1Radios1" value="Freestyle" checked>
     <h3>Board Freestyle</h3>
     <p>« Les Boards Freestyle ont été développées pour vous offrir un excellent pop dû à un scoop supérieur de 5mm et un flex adapté. Vous aurez le choix dans une gamme d’ailerons spécifiques freestyle qui vous permettront d’avoir  le meilleur compromis entre stabilité à la réception et maniabilité.Chausse possible :)»</p>
   </label>
 </div>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="type" id="section1Radios2" value="Freeride">
 
@@ -35,7 +36,7 @@
 
 <div class="section" id="section2freeride">
 <h2>Choix de la taille</h2>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="taillefreeride" id="section2freerideRadios1" value="129X39cm" checked>
 
@@ -43,7 +44,7 @@
     <p>« Cette taille à été développée spécialement pour les petits gabarits (poids de: 45kg  à 55kg). »</p>
   </label>
 </div>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="taillefreeride" id="section2freerideRadios2" value="133X41cm">
 
@@ -51,7 +52,7 @@
     <p>« Cette taille à été développée pour le gabarit moyen elle correspondra aux meilleurs compromis entre toutes les boards freeride du marché (poids de: 50kg à 80kg). »</p>
   </label>
 </div>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="taillefreeride" id="section2freerideRadios3" value="138X44cm">
 
@@ -64,7 +65,7 @@
 </div>
 <div class="section" id="section2freestyle">
 <h2>Choix de la taille</h2>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="taillefreestyle" id="section2freestyleRadios1" value="135X42cm" checked>
     <h3>135X42cm</h3>
@@ -77,14 +78,14 @@
 <h2>Choix de la composition</h2>
 <p>Toutes les boards freug’s kiteboarding ont un noyau 100% bois mais nous avons besoin d’ajouter de la fibre de verre ou de carbone ainsi que de la résine pour la solidité et la réactivité de la planche à la flexion.
 </p>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="composition" id="section3Radios2" value="Fibre de verre" checked>
     <h3>Fibre de verre</h3>
     <p>« La fibre de verre vous permettra d’avoir une stratification transparente et permet de voir le noyeau 100% bois. Elle apporte plus de souplesse que la fibre de carbone elle est conseillée pour les boards freeride.»</p>
   </label>
 </div>
-<div class="radio">
+<div class="radio radio-title">
   <label>
     <input type="radio" name="composition" id="section3Radios1" value="Carbone">
     <h3>Carbone</h3>
@@ -106,14 +107,14 @@
 <div class="section" id="section5">
 	<h2>Choix de la finition</h2>
 	<p>nous vous laissons le choix de choisir la finition du dessus de la board. En effet toutes nos boards serront livré avec un dessous MAT car ce revêtement est moins sensible aux rayures.</p>
-	<div class="radio">
+	<div class="radio radio-title">
 	  <label>
 	    <input type="radio" name="finition" id="section5Radios1" value="Brillante" checked>
 		<h2>Brillante</h2>
 		<p>Trés girly et apporte une superbe brillance à la couleur.</p>
 	  </label>
 	</div>
-	<div class="radio">
+	<div class="radio radio-title">
 	  <label>
 	    <input type="radio" name="finition" id="section5Radios2" value="Mat">
 		<h2>Mat</h2>
@@ -156,25 +157,25 @@
 <div class="radio">
   <label>
     <input type="radio" name="aileronfreestyle" id="section6freestyleRadios1" value="ailerons-wakeboard-kitesurf--mosquito" checked>
-	<img src="ailerons/ailerons-wakeboard-kitesurf--mosquito.jpeg">
+	<img src="ailerons/ailerons-wakeboard-kitesurf--mosquito.jpeg" class="img-responsive">
   </label>
 </div>
 <div class="radio">
   <label>
     <input type="radio" name="aileronfreestyle" id="section6freestyleRadios2" value="ailerons-wakeboard-kitesurf-G10-mosquito">
-	<img src="ailerons/ailerons-wakeboard-kitesurf-G10-mosquito.jpeg">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-G10-mosquito.jpeg" class="img-responsive">
   </label>
 </div>
 <div class="radio">
   <label>
     <input type="radio" name="aileronfreestyle" id="section6freestyleRadios3" value="ailerons-wakeboard-kitesurf-mosquito-noir-rose">
-	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-noir-rose.jpeg">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-noir-rose.jpeg" class="img-responsive">
   </label>
 </div>
 <div class="radio">
   <label>
     <input type="radio" name="aileronfreestyle" id="section6freestyleRadios4" value="ailerons-wakeboard-kitesurf-mosquito-vert-blanc">
-	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-vert-blanc.jpeg">
+	<img src="ailerons/ailerons-wakeboard-kitesurf-mosquito-vert-blanc.jpeg" class="img-responsive">
   </label>
 </div>
 </div>
@@ -186,22 +187,22 @@
 		<li>Taille : <span id="recapTaille"></span></li>
 		<li>Composition : <span id="recapComposition"></span></li>
 		<li>Finition : <span id="recapFinition"></span></li>
-		<li>Aileron : <img id="recapAileron" src=""></li>
+		<li>Aileron :</li>
 	</ul>
-
+	<img id="recapAileron" src="" class="img-responsive">
 </div>
 <div class="section" id="section8">
 	<h2>Choix de la housse</h2>
 	<div class="radio">
 	  <label>
 	    <input type="radio" name="housse" id="section8Radios1" value="housseBleu">
-		<img src="housses/houssebleu.jpeg">
+		<img src="housses/houssebleu.jpeg" class="img-responsive">
 	  </label>
 	</div>
 	<div class="radio">
 	  <label>
 	    <input type="radio" name="housse" id="section8Radios2" value="housseRose">
-		<img src="housses/housserose.jpeg">
+		<img src="housses/housserose.jpeg" class="img-responsive">
 	  </label>
 	</div>
 	<div class="radio">
@@ -213,7 +214,39 @@
 </div>
 <div class="section" id="section9">
 	<h2>Paiement</h2>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="livraison" id="section9Radios1" value="france" checked>
+		France (Gratuit)
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+	    <input type="radio" name="livraison" id="section9Radios2" value="europe">
+		Europe (+50€)
+	  </label>
+	</div>
+	<div class="radio">
+	  <label>
+		<input type="radio" name="livraison" id="section9Radios3" value="monde">
+	    Monde (+100€)
+	  </label>
+	</div>
 
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_xclick">
+		<input type="hidden" name="business" value="olivier.brun@freugskiteboarding.com">
+		<input type="hidden" name="lc" value="US">
+		<input type="hidden" name="item_name" id="paypalObjectName" value="objectname">
+		<input type="hidden" name="amount" id="paypalAmount" value="17.00">
+		<input type="hidden" name="currency_code" value="EUR">
+		<input type="hidden" name="button_subtype" value="services">
+		<input type="hidden" name="no_note" value="0">
+		<input type="hidden" name="shipping" id="paypalLivraison" value="0.00">
+		<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+		<input type="image" src="https://www.paypalobjects.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+		<img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+	</form>
 </div>
 
 	<button class="btn btn-small btn-default" id="precedent">Précedent</button>
@@ -274,7 +307,7 @@
 			    color: "#f00",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker1", tinycolor.toHexString());
-			    	board.color1 = tinycolor.toHexString()
+			    	board.couleur1 = tinycolor.toHexString()
 			    	console.log($(".board-svg")[0].contentDocument);
 					$(".board-svg").each(function(index, svgwrapper){
 						var svgdoc = svgwrapper.contentDocument;
@@ -292,7 +325,7 @@
 			    color: "#f00",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker2", tinycolor.toHexString());
-			    	board.color2 = tinycolor.toHexString()
+			    	board.couleur2 = tinycolor.toHexString()
 			    	console.log($(".board-svg")[0].contentDocument);
 					$(".board-svg").each(function(index, svgwrapper){
 						var svgdoc = svgwrapper.contentDocument;
@@ -423,6 +456,32 @@
 				$("#recapAileron").attr("src", "ailerons/"+board.aileron+".jpeg");
 		}
 
+		var setPrice = function() {
+			var price = 0;
+			if(board.composition == 'carbone'){
+				price = 550;
+			} else {
+				price = 500;
+			}
+
+			if(board.housse == 'housseBleu' || board.housse == 'housseRose') {
+				price = price + 50;
+			}
+
+			var ailerons = {
+				"ailerons-kitesurf-legend-g10" : "legend-g10",
+				"ailerons-kitesurf-legend-noir-rose" : "legend-noir-rose",
+				"ailerons-kitesurf-legend-vert-blanc" : "legend-vert-blanc",
+				"ailerons-kitesurf-legend" : "legend",
+				"ailerons-wakeboard-kitesurf--mosquito" : "mosquito",
+				"ailerons-wakeboard-kitesurf-G10-mosquito" : "G10-mosquito",
+				"ailerons-wakeboard-kitesurf-mosquito-noir-rose" : "mosquito-noir-rose",
+				"ailerons-wakeboard-kitesurf-mosquito-vert-blanc" : "mosquito-vert-blanc"
+			}
+
+			$("#paypalAmount").val(price.toFixed(2));
+			$("#paypalObjectName").val("Board Custom-" + board.couleur1 + "-" + board.couleur2 + "-" + board.type + "-" + board.taille + "-" + board.composition + "-" + board.finition + "/" + ailerons[board.aileron] + "/" + board.housse);
+		}
 
 		$('#precedent').on("click", function(){
 			console.log("currentStep", currentStep);
@@ -439,6 +498,8 @@
 			displayStep(currentStep);
 			if(currentStep == "section7"){
 				recap();
+			}else if(currentStep == "section9"){
+				setPrice();
 			}
 			console.log(board);
 		});
@@ -472,6 +533,17 @@
 		$('input[name=composition]').on('change', function(){
 			var composition = $('input[name=composition]:checked').val();
 			displaySvg(board.type, composition);
+		});
+
+		$('input[name=livraison]').on('change', function(){
+			var livraison = $('input[name=livraison]:checked').val();
+			if(livraison == 'france') {
+				$('#paypalLivraison').val('0.00');
+			}else if (livraison == 'europe') {
+				$('#paypalLivraison').val('50.00');
+			}else{ //monde
+				$('#paypalLivraison').val('100.00');
+			}
 		});
 
 		var init = function(){
