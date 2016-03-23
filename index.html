@@ -102,6 +102,7 @@
 	<input type='text' id="colorpicker1" />
 	<h3>Couleur secondaire :</h3>
 	<input type='text' id="colorpicker2" />
+	<br><br>
 </div>
 
 <div class="section" id="section5">
@@ -249,34 +250,36 @@
 	</form>
 </div>
 
-	<button class="btn btn-small btn-default" id="precedent">Précedent</button>
-	<button class="btn btn-small btn-primary" id="suivant">Suivant</button>
+	<button class="btn btn-small btn-blanc" id="precedent">Précedent</button>
+	<button class="btn btn-small btn-rose" id="suivant">Suivant</button>
 		</div>
 		<div class="col-sm-6">
-			<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSUS.svg" id="freeride-bois-dessus" class="board-svg" width="100%">
-				freeride-bois-dessus
-			</object>
-			<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSOUS.svg" id="freeride-bois-dessous" class="board-svg" width="100%">
-				freeride-bois-dessous
-			</object>
-			<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSUS.svg" id="freeride-carbon-dessus" class="board-svg" width="100%">
-				freeride-carbon-dessus
-			</object>
-			<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="100%">
-				freeride-carbon-dessous
-			</object>
-			<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSUS.svg" id="freestyle-bois-dessus" class="board-svg" width="100%">
-				freestyle-bois-dessus
-			</object>
-			<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSOUS.svg" id="freestyle-bois-dessous" class="board-svg" width="100%">
-				freestyle-bois-dessous
-			</object>
-			<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSUS.svg" id="freestyle-carbon-dessus" class="board-svg" width="100%">
-				freestyle-carbon-dessus
-			</object>
-			<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSOUS.svg" id="freestyle-carbon-dessous" class="board-svg" width="100%">
-				freestyle-carbon-dessous
-			</object>
+			<div class="board-svg-container">
+				<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSUS.svg" id="freeride-bois-dessus" class="board-svg" width="100%">
+					freeride-bois-dessus
+				</object>
+				<object type="image/svg+xml" data="svgs/FREERIDE-BOIS-DESSOUS.svg" id="freeride-bois-dessous" class="board-svg" width="100%">
+					freeride-bois-dessous
+				</object>
+				<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSUS.svg" id="freeride-carbon-dessus" class="board-svg" width="100%">
+					freeride-carbon-dessus
+				</object>
+				<object type="image/svg+xml" data="svgs/FREERIDE-CARBON-DESSOUS.svg" id="freeride-carbon-dessous" class="board-svg" width="100%">
+					freeride-carbon-dessous
+				</object>
+				<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSUS.svg" id="freestyle-bois-dessus" class="board-svg" width="100%">
+					freestyle-bois-dessus
+				</object>
+				<object type="image/svg+xml" data="svgs/FREESTYLE-BOIS-DESSOUS.svg" id="freestyle-bois-dessous" class="board-svg" width="100%">
+					freestyle-bois-dessous
+				</object>
+				<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSUS.svg" id="freestyle-carbon-dessus" class="board-svg" width="100%">
+					freestyle-carbon-dessus
+				</object>
+				<object type="image/svg+xml" data="svgs/FREESTYLE-CARBON-DESSOUS.svg" id="freestyle-carbon-dessous" class="board-svg" width="100%">
+					freestyle-carbon-dessous
+				</object>
+			</div>
 		</div>
 	</div>
 </div>
@@ -289,8 +292,8 @@
 
 	<script>
 		var board = {
-			couleur1: null,
-			couleur2: null,
+			couleur1: "#000",
+			couleur2: "#000",
 			type: null,
 			composition: null,
 			taille: null,
@@ -299,12 +302,12 @@
 			finition: null
 		}
 
-		var zones1 = ["ZONE1", "ZONE3", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE9", "ZONE10", "ZONE11", "MASK1", "MASK2", "MASK3"];
+		var zones1 = ["ZONE1", "ZONE3", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE10", "ZONE11", "MASK1", "MASK2", "MASK3"];
 		var zones2 = ["ZONE2", "ZONE2A", "ZONE2B", "ZONE4"];
 
 		$(function() {
 			$("#colorpicker1").spectrum({
-			    color: "#f00",
+			    color: "#000",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker1", tinycolor.toHexString());
 			    	board.couleur1 = tinycolor.toHexString()
@@ -318,11 +321,14 @@
 								svgItem.setAttribute("fill", tinycolor.toHexString());
 							}
 						});
+
+						var svgItem = svgdoc.getElementById("ZONE9");
+						svgItem.setAttribute("stroke", tinycolor.toHexString());
 					});
 			    }
 			});
 			$("#colorpicker2").spectrum({
-			    color: "#f00",
+			    color: "#000",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker2", tinycolor.toHexString());
 			    	board.couleur2 = tinycolor.toHexString()

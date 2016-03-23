@@ -2,3 +2,41 @@
 .radio-title input[type=radio] {
 	margin-top: 27px;
 }
+
+h1,h2,h3 {
+	color:#DF0067;
+}
+
+body {
+	color: #777;
+}
+
+.btn-rose {
+	border-radius: 0px;
+	font-weight: bold;
+	background-color: #CB3C6E;
+	color: white;
+}
+
+.btn-blanc {
+	border-radius: 0px;
+	font-weight: bold;
+	background-color: white;
+	color: #CB3C6E;
+	border: 1px solid #CB3C6E;
+}
+
+#section8 input[type=radio], #section6freeride input[type=radio], #section6freestyle input[type=radio]{
+	margin-top: 102px;
+}
+
+#section8Radios3 {
+	margin-top: 4px;
+}
+
+.board-svg-container {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    margin-top: 100px;
+}
