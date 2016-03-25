@@ -292,8 +292,8 @@
 
 	<script>
 		var board = {
-			couleur1: "#000",
-			couleur2: "#000",
+			couleur1: "#eb005f",
+			couleur2: "#00d7ff",
 			type: null,
 			composition: null,
 			taille: null,
@@ -305,42 +305,52 @@
 		var zones1 = ["ZONE1", "ZONE3", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE9", "ZONE10", "ZONE11", "MASK1", "MASK2", "MASK3"];
 		var zones2 = ["ZONE2", "ZONE2A", "ZONE2B", "ZONE4"];
 
+		var changeColorZone1 = function(color) {
+			$(".board-svg").each(function(index, svgwrapper){
+				var svgdoc = svgwrapper.contentDocument;
+				$.each(zones1, function(index, zone){
+					var svgItem = svgdoc.getElementById(zone);
+					if(svgItem){
+						svgItem.setAttribute("fill", color);
+					}
+				});
+			});
+		}
+		var changeColorZone2 = function(color) {
+			$(".board-svg").each(function(index, svgwrapper){
+				var svgdoc = svgwrapper.contentDocument;
+				$.each(zones2, function(index, zone){
+					var svgItem = svgdoc.getElementById(zone);
+					if(svgItem){
+						svgItem.setAttribute("fill", color);
+					}
+				});
+			});
+		}
+
 		$(function() {
 			$("#colorpicker1").spectrum({
-			    color: "#000",
+			    color: "#eb005f",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker1", tinycolor.toHexString());
 			    	board.couleur1 = tinycolor.toHexString()
-			    	console.log($(".board-svg")[0].contentDocument);
-					$(".board-svg").each(function(index, svgwrapper){
-						var svgdoc = svgwrapper.contentDocument;
-						$.each(zones1, function(index, zone){
-							var svgItem = svgdoc.getElementById(zone);
-							if(svgItem){
-								svgItem.setAttribute("fill", tinycolor.toHexString());
-							}
-						});
-						// var svgItem = svgdoc.getElementById("ZONE9");
-						// svgItem.setAttribute("stroke", tinycolor.toHexString());
-					});
+			    	changeColorZone1(board.couleur1);
 			    }
 			});
 			$("#colorpicker2").spectrum({
-			    color: "#000",
+			    color: "#00d7ff",
 			    move: function(tinycolor) {
 			    	console.log("#colorpicker2", tinycolor.toHexString());
 			    	board.couleur2 = tinycolor.toHexString()
-			    	console.log($(".board-svg")[0].contentDocument);
-					$(".board-svg").each(function(index, svgwrapper){
-						var svgdoc = svgwrapper.contentDocument;
-						$.each(zones2, function(index, zone){
-							var svgItem = svgdoc.getElementById(zone);
-							if(svgItem){
-								svgItem.setAttribute("fill", tinycolor.toHexString());
-							}
-						});
-					});
+			    	changeColorZone2(board.couleur2);
 			    }
+			});
+
+			$(".board-svg").each(function(index, svgwrapper){
+				svgwrapper.addEventListener('load', function(){
+					changeColorZone1(board.couleur1);
+					changeColorZone2(board.couleur2);
+				}, true);
 			});
 		});
 
@@ -528,6 +538,8 @@
 				}
 			}
 		}
+
+
 
 		$('input[name=type]').on('change', function(){
 			var type = $('input[name=type]:checked').val();
