@@ -302,7 +302,7 @@
 			finition: null
 		}
 
-		var zones1 = ["ZONE1", "ZONE3", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE10", "ZONE11", "MASK1", "MASK2", "MASK3"];
+		var zones1 = ["ZONE1", "ZONE3", "ZONE5", "ZONE5", "ZONE6", "ZONE7", "ZONE8", "ZONE9", "ZONE10", "ZONE11", "MASK1", "MASK2", "MASK3"];
 		var zones2 = ["ZONE2", "ZONE2A", "ZONE2B", "ZONE4"];
 
 		$(function() {
@@ -315,15 +315,13 @@
 					$(".board-svg").each(function(index, svgwrapper){
 						var svgdoc = svgwrapper.contentDocument;
 						$.each(zones1, function(index, zone){
-							console.log(zone)
 							var svgItem = svgdoc.getElementById(zone);
 							if(svgItem){
 								svgItem.setAttribute("fill", tinycolor.toHexString());
 							}
 						});
-
-						var svgItem = svgdoc.getElementById("ZONE9");
-						svgItem.setAttribute("stroke", tinycolor.toHexString());
+						// var svgItem = svgdoc.getElementById("ZONE9");
+						// svgItem.setAttribute("stroke", tinycolor.toHexString());
 					});
 			    }
 			});
